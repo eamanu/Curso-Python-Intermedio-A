@@ -310,4 +310,4 @@ TSWLatexianTemp*
 *.xwm
 
 .ipynb_checkpoints
-
+.idea/
