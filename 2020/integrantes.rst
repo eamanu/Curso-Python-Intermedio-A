@@ -1,3 +1,5 @@
 Integrantes curso 2020
 ======================
-Arias Emmanuel
+
+* Arias Emmanuel
+* Rodriguez Juan Elias
