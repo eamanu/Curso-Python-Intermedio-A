@@ -7,4 +7,3 @@ Integrantes curso 2020
 * Quintana Fabio Adrian
 * Foulques Sergio Matías
 * Cabral Renzo David Jesús
-* Flores Pablo Fernando
