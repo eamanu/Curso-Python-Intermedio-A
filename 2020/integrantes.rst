@@ -6,4 +6,7 @@ Integrantes curso 2020
 * Roldan Sabattini, Martín Nahuel
 * Quintana Fabio Adrian
 * Garcia Atilio Alfredo Nicolas
-
+* Villafañe Jorge Daniel
+* Foulques Sergio Matías
+* Cabral Renzo David Jesús
+* Flores Pablo Fernando
