@@ -10,3 +10,4 @@ Integrantes curso 2020
 * Foulques Sergio Matías
 * Cabral Renzo David Jesús
 * Flores Pablo Fernando
+* Murua Mancuello Gabriel Rafael
