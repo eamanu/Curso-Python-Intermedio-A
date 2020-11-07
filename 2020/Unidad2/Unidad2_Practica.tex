@@ -1,0 +1,91 @@
+\documentclass[12pt, spanish]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage[spanish]{babel}
+\selectlanguage{spanish}
+\usepackage[utf8]{inputenc}
+\setlength{\parindent}{2cm}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{float}
+
+% Title Page
+\title{Trabajo Práctico Unidad 2}
+\author{Python Intermedio - UNLAR 2020}
+
+
+\begin{document}
+\maketitle
+
+\section{Ejercicios}
+
+Resolver la mayor cantidad posible de ejercicios. Enviarlos vía Gitlab, en la carpeta
+\textit{2020/Unidad2/TrabajoPractico/Nombre\_Apellido/}
+
+\begin{enumerate}
+	\item Realizar una función que retorne la suma de todos los múltiples de 3 y 5, en el rango de 0 a X.
+	\item Realizar una función que retorne la suma de todos los \textbf{pares} dentro de una serie de fibonacci, que esté entre 0 y X.
+	\item La suma de los cuadrados de los primeros 10 números  naturales es:
+	\begin{equation}\label{key}
+		1^{2} + 2^{2} + 3^{2} + ... + + 10^{2} = 385
+	\end{equation}
+El cuadrado de la suma  de los primeros 10 números naturales es:
+	\begin{equation}\label{key}
+		(1 + 2 + 3 + ... + 10)^{2} = 3025
+	\end{equation}
+La diferencia entre la suma de los cuadrados de los primeros 10 números naturales y el cuadrado de las sumas es:
+$ 3025 - 385 = 2640 $
+
+Realizar una función que devuelva la diferencia de la suma de los cuadrados de los primeros X números naturales y el cuadrado de la suma. 
+
+	\item La secuencia de fibonacci tiene la siguiente forma:
+	$
+	F1 = 1
+	F2 = 1
+	F3 = 2
+	F4 = 3
+	F5 = 5
+	F6 = 8
+	F7 = 13
+	F8 = 21
+	F9 = 34
+	F10 = 55
+	F11 = 89
+	F12 = 144
+	$
+	Observamos que en la posición 12 (11 si comenzamos a contar desde el cero) es el dónde empieza el primer número de la serie que tiene 3 dígitos. Encontrar la posición dónde comienza el primer número con 4 dígitos.
+	
+	\item Escribir una función que ordene una lista de tuplas por el segundo elemento de la tupla. Por ejemplo:
+	$$Entrada: [(2, 8), (1, 2), (4, 4), (2, 3), (2, 1)]
+	Salida: [(2, 1), (1, 2), (2, 3), (4, 4), (2, 8)]$$ 
+	\item Escribir una función que elimine números repetidos de una lista.
+	\item Leer archivo \textit{data/2020.02.json} y reproducir lo mejor posible los datos obtenidos en \url{https://sueldos.openqube.io/encuesta-sueldos-2020.02/}:
+	\begin{itemize}
+		\item porcentaje de participación por provincia.
+ 		\item Porcentaje de contribuciones al open source.
+ 		\item Porcentaje de personas que programan por hobbie.
+ 	 	\item Cuales son las primeras 3 carreras más estudiadas.
+ 	 	\item Porcentaje se identifica como mujer, como hombre y otros.
+ 	 	\item Promedio de sueldos en Argentina
+ 	 	\item Cual es el sueldo más alto
+ 	 	\item Cual es el sueldo más bajo
+ 	 	\item En qué lenguajes programa el sueldo más alto.
+	\end{itemize}
+    \item La gente de Foodia ama las manzanas. También son muy generosos. Debido a una hambruna, ahora solo tienen un suministro limitado de manzanas. Cada persona tiene una cantidad de manzanas, de las cuales come una manzana al día. Como la gente es muy generosa, dan manzanas a los necesitados. Si una persona se queda sin manzanas, puede recibir una manzana de cualquier persona ese día. Si una persona se queda sin manzanas y nadie puede darle una manzana, esa persona se muere de hambre. Encuentra el día en que muere la última persona.
+    
+    Input: N -> Población de Foodia. X -> Array de manzanas que reciben una persona.
+    
+    Ejemplo: $give\_last\_day\_die(4, [2, 1, 1, 4]) -> return -> 2$
+    
+    ¿Por qué? El primer día las personas tiene 2, 1, 1, 4 manzanas, cada uno come 1 y quedan así: (1, 0, 0, 3) pero la persona que tiene 3 le da a las que tiene 0 quedando: (1, 1, 1, 1). En el segundo día todos comen una manzana y mueren.
+    
+    \item A Joey le gusta mucho la comida. Un día se le rompio el frizer, y tiene que comer toda la comida que tiene guardada. Dentro del fizer la comida se guarda en estantes, y cada estante puede almacenar una cantidad X de comida. Calcular la cantidad de comida que debe comer Joey.
+    
+    Input: N -> Cantidad de estantes. X Array con cantidad de comida por estante.
+    
+    Ejemplo: N = 3. X = [1, 3, 5]. Cantidad de comida que debe comer: 9.
+    
+    \item Convertir los videos en formato MOV que se encuentran en \textit{data/videos} a un formato mp4. El programa debe recibir un path de dónde se encuentran los videos y un path de salida. Si el path de salida no existe debe crearlo. Si el path de entrada no existe, informar con un mensaje de error que no existe el programa. Parametrizar el programa, usando \textit{argsparse}.\textbf{Tip}: Usar ffmpeg para la conversión.
+	
+\end{enumerate}
+
+\end{document}          
