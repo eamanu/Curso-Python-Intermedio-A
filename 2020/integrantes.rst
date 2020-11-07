@@ -1,7 +1,7 @@
 Integrantes curso 2020
 ======================
-
 * Arias Emmanuel
+* Abril Castillo
 * Rodriguez Juan Elias
 * Roldan Sabattini, Martín Nahuel
 * Quintana Fabio Adrian
@@ -11,4 +11,3 @@ Integrantes curso 2020
 * Cabral Renzo David Jesús
 * Flores Pablo Fernando
 * Murua Mancuello Gabriel Rafael
-* Abril Castillo
