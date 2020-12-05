@@ -1,0 +1,52 @@
+\documentclass[12pt, spanish]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage[spanish]{babel}
+\selectlanguage{spanish}
+\usepackage[utf8]{inputenc}
+\setlength{\parindent}{2cm}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{float}
+
+% Title Page
+\title{Trabajo Práctico Unidad 4}
+\author{Python Intermedio - UNLAR 2020}
+
+
+\begin{document}
+\maketitle
+
+\section{Ejercicios}
+
+Resolver el ejercicio en la mayor cantidad posible. Enviarlos vía Gitlab, en la carpeta
+\textit{2020/Unidad4/TrabajoPractico/Nombre\_Apellido/}
+
+Desarrollar una herramienta que me permita tener el árbol de dependencia de una módulo o 
+herramienta de Python. Esto es muy importante cuando se hace mantenimiento de un paquete
+en una distribución, o cuando se mantiene un modulo de Python.
+
+Para desarrollar esta herramienta van a necesitar recibir como argumento el nombre del paquete
+(ver último ejercicio de la unidad 2). Además van a necesitar, descargar el wheel, usando pip,
+para ellos pueden ejecutar, usando subprocess.Popen, el comando:
+
+$$python3 -m pip wheel poetry -vvv --no-deps --no-cache-dir --disable-pip-version-check$$
+
+Y podran sacar información del \textit{wheel} usando los modulos: \textit{pkginfo, pkg\_resource,
+distlib}
+
+Con los datos que obtengan con esos módulos, podrán seguir repitiendo el proceso.
+
+La idea es que utilicen procesos para acelerar:
+
+\begin{itemize}
+	\item La descarga de los wheels.
+	\item La búsqueda de los requerimientos.
+	\item El armado de la estructura de datos final para presentar el árbol de dependencia.
+\end{itemize}
+
+Hacer esta herramienta, no es una tarea sencilla, por lo que se pide realizar lo mayor
+posible, y también es válido dejar partes del código definida (sin implementar).
+
+Podrán encontrar inspiración aquí \url{https://github.com/wimglenn/johnnydep}
+
+\end{document}          
